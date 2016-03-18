@@ -1,0 +1,19 @@
+{
+  "name": "multivision",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Tim Getz <timgetz@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/puffyelms/MultiVision",
+  "moduleType": [],
+  "private": true,
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "toastr": "^2.1.2",
+    "angular": "^1.5.1",
+    "angular-resource": "^1.5.1",
+    "angular-route": "^1.5.1"
+  }
+}
