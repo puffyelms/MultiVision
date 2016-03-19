@@ -2,6 +2,6 @@
 
 #Setup of Monogo DB
 
-use multivision
-db.messages.insert({message: 'Hello Monogo'})
-show collections
+<p>use multivision</p>
+<p>db.messages.insert({message: 'Hello Monogo'})</p>
+<p>show collections</p>
