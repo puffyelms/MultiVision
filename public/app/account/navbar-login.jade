@@ -7,8 +7,9 @@
         .button.btn.btn-primary(ng-click="signIn(userName, password)") Sign In
     ul.nav.navbar-nav.navbar-right(ng-show="identity.isAuthenticated()")
         li.dropdown
-            a.dropdown-toggle(href="", data-toggle="dropdown") | {{identity.currentUser.firstName + " " + identity.currentUser.lastName}}
-            b.caret
-        ul.dropdown-menu
-            li
-                a(href="", ng-click"signout()") Sign Out
+            a.dropdown-toggle(href="", data-toggle="dropdown")
+                | {{identity.currentUser.firstName + " " + identity.currentUser.lastName}}
+                b.caret
+            ul.dropdown-menu
+                li
+                    a(href="", ng-click="signOut()") Sign Out
